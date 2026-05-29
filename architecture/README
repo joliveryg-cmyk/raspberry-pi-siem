@@ -1,1 +1,39 @@
+# Architecture
 
+The Security Monitoring and Threat Detection Lab consists of multiple security monitoring components working together to collect, process, store, and analyze security events.
+
+## Data Flow
+
+Internet Attack Traffic
+↓
+Cowrie Honeypot
+↓
+Wazuh Agent
+↓
+Wazuh Manager
+↓
+OpenSearch Indexer
+↓
+Wazuh Dashboard
+↓
+Security Monitoring
+
+## Components
+
+### Cowrie Honeypot
+Generates attack telemetry by simulating an exposed SSH service.
+
+### Wazuh Agent
+Collects and forwards logs for analysis.
+
+### Wazuh Manager
+Processes events, applies rules, and generates alerts.
+
+### OpenSearch Indexer
+Stores and indexes security events.
+
+### Wazuh Dashboard
+Provides alert visualization and analyst access.
+
+### Tailscale
+Provides secure remote administration through a Zero Trust network model.
