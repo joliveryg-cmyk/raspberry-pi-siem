@@ -1,4 +1,4 @@
-# Security Monitoring and Threat Detection lab
+# Security Monitoring and Threat Detection Lab
 A hands-on cybersecurity homelab focused on SIEM deployment, log analysis, threat detection, and alert validation using Wazuh, OpenSearch, Docker, and a Cowrie SSH honeypot.
 
 Overview
@@ -60,20 +60,28 @@ Significant effort was spent resolving real operational issues rather than relyi
 
 These troubleshooting efforts mirror real SOC and security engineering workflows and form a core part of the project’s learning value.
 
-Skills Demonstrated
+Lessons Learned
 
 This project demonstrates hands-on experience with SIEM deployment and administration, log ingestion and analysis, and threat detection using live attack data. It highlights practical Linux system troubleshooting, certificate-based security, Dockerized infrastructure management, and Zero Trust networking concepts. The lab reinforces a SOC analyst mindset focused on visibility, validation, and continuous monitoring rather than tool installation alone.
 
 Future Improvements
 
-Planned enhancements include developing custom detection rules, refining alert severity and noise reduction, onboarding additional endpoints, expanding visual dashboards to show attack trends over time, and integrating alert notifications. These improvements would further align the lab with enterprise SOC environments.
+Planned enhancements include refining custom detection rules, reducing alert noise, onboarding additional endpoints, expanding dashboard visualizations, and integrating automated alert notifications.
+
+Project Highlights
+
+* Deployed and maintained a self-hosted Wazuh/OpenSearch SIEM environment
+* Integrated Cowrie SSH honeypot telemetry into centralized monitoring workflows
+* Configured custom log ingestion and alert validation pipelines
+* Resolved dashboard, API, authentication, and certificate-related service failures
+* Implemented secure remote administration using Tailscale
+* Completed approximately 80–100 hours of deployment, troubleshooting, testing, and validation
 
 Disclaimer
 
-This project was created strictly for educational and defensive security purposes within a controlled lab environment. No unauthorized access or malicious activity was conducted against external systems.
+This project was created strictly for educational and defensive security purposes within a controlled lab environment. All Testing was performed on systems owned or authorized by the project owner. No unauthorized access or malicious activity was conducted against external systems.
 
-Author
 
 Justin Oliver
-Cybersecurity & Information Assurance Student
-Aspiring SOC Analyst / Blue Team
+B.S. Cybersecurity and Information Assurance
+PenTest+ | CySA+ | ISC2 SSCP 
