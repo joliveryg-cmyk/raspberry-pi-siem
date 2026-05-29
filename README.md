@@ -1,4 +1,4 @@
-# raspberry-pi-siem
+# Security Monitoring and Threat Detection lab
 Home-built SIEM and detection lab using Wazuh, OpenSearch, Docker, and a live SSH honeypot on Raspberry Pi 5.
 Homegrown SIEM & Detection Lab (Raspberry Pi 5)
 Overview
