@@ -1,11 +1,11 @@
 # Security Monitoring and Threat Detection lab
-Home-built SIEM and detection lab using Wazuh, OpenSearch, Docker, and a live SSH honeypot on Raspberry Pi 5.
-Homegrown SIEM & Detection Lab (Raspberry Pi 5)
+A hands-on cybersecurity homelab focused on SIEM deployment, log analysis, threat detection, and alert validation using Wazuh, OpenSearch, Docker, and a Cowrie SSH honeypot.
 Overview
 
-This project is a fully functional, home-built Security Information and Event Management (SIEM) lab deployed on a Raspberry Pi 5. The environment was designed to replicate real-world SOC workflows, including centralized log ingestion, alerting, threat detection, troubleshooting, and secure remote analyst access. The primary goal of the lab is to demonstrate practical blue-team skills using enterprise-style tooling while operating under realistic hardware and resource constraints.
+This project demonstrates the deployment and administration of a self-hosted SIEM environment designed to simulate common SOC workflows. The lab collects security logs, ingests honeypot telemetry, processes events through Wazuh, indexes data in OpenSearch, and provides analyst visibility through the Wazuh Dashboard.
 
-The SIEM ingests logs from multiple sources, including a live SSH honeypot, and provides centralized visibility through a security dashboard. All components are containerized and secured using certificate-based authentication, with analyst access restricted through encrypted Zero Trust networking rather than exposed public services.
+The goal of this project was not simply to install tools, but to understand how security events move through a monitoring pipeline, how alerts are generated, and how to troubleshoot failures involving authentication, certificates, dashboard access, API connectivity, and log ingestion.
+
 
 Purpose and Scope
 
